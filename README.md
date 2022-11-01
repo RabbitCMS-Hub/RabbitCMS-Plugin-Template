@@ -6,9 +6,15 @@ RabbitCMS Plugin Template
 ![alt text](https://repository-images.githubusercontent.com/458203468/f61be3bd-3cc5-490f-b1b2-78333b6e737c "RabbitCMS Core")
 
 # Dökümantasyon
-## Eklenti Sınıfı **Genel** Yapısı
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget lectus imperdiet gravida sit amet euismod magna. Sed rhoncus, dolor quis porttitor placerat, velit orci tincidunt dui, vitae maximus magna turpis sit amet est. Nunc at feugiat ipsum, vel euismod erat. Sed facilisis finibus eros nec aliquet. Ut fermentum, leo sit amet pellentesque maximus, sapien diam eleifend dui, a molestie mi est in dolor. Aenean ac rhoncus tortor. Vestibulum sed varius lectus, non fermentum magna. Sed vitae quam nibh. In ut orci mauris. Ut consequat, arcu id sagittis pretium, enim orci imperdiet velit, ac pretium eros felis pretium nunc. Fusce quis risus mi.
+
+
+
+# Eklenti Sınıfı **Genel** Yapısı
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget lectus imperdiet gravida sit amet euismod magna. Sed rhoncus, dolor quis porttitor placerat, velit orci tincidunt dui, vitae maximus magna turpis sit amet est. Nunc at feugiat ipsum, vel euismod erat. Sed facilisis finibus eros nec aliquet. Ut fermentum, leo sit amet pellentesque maximus, sapien diam eleifend dui, a molestie mi est in dolor. Aenean ac rhoncus tortor. Vestibulum sed varius lectus, non fermentum magna. Sed vitae quam nibh. In ut orci mauris. Ut consequat, arcu id sagittis pretium, enim orci imperdiet velit, ac pretium eros felis pretium nunc. Fusce quis risus mi.
+
+
 ```asp
-<%
 <%
 Class ClassName
 	' REQUIRED: Plugin Variables
@@ -156,7 +162,8 @@ Class ClassName
 End Class 
 %>
 
-## Kullanılabilir **Genel** Nitelikler
+# Kullanılabilir Nitelikler (Property)
+## **Genel** Nitelikler
 > Oluşturulacak eklentinin RabbitCMS tarafından tanımlanması için aşağıda belirtilen genel nitelikler mutlaka bulunmalı ve değiştirilmemelidir. Bu nitelikler mevcut değişkenlerin değerlerini almak için kullanılabilir.
 
 Bu niteliklerin tanımlanması için *Class* yapınızın altında *class_initialize()* Subroutine (Alt Program) içinde tanımlanır.
@@ -239,8 +246,21 @@ Private Sub class_initialize()
 End Sub
 %>
 ```
+# Kullanılabilir Fonksiyonlar (Function)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget lectus imperdiet gravida sit amet euismod magna. Sed rhoncus, dolor quis porttitor placerat, velit orci tincidunt dui, vitae maximus magna turpis sit amet est. Nunc at feugiat ipsum, vel euismod erat. Sed facilisis finibus eros nec aliquet. Ut fermentum, leo sit amet pellentesque maximus, sapien diam eleifend dui, a molestie mi est in dolor. Aenean ac rhoncus tortor. Vestibulum sed varius lectus, non fermentum magna. Sed vitae quam nibh. In ut orci mauris. Ut consequat, arcu id sagittis pretium, enim orci imperdiet velit, ac pretium eros felis pretium nunc. Fusce quis risus mi.
+
+# Kullanılabilir Sabitler (Const)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget lectus imperdiet gravida sit amet euismod magna. Sed rhoncus, dolor quis porttitor placerat, velit orci tincidunt dui, vitae maximus magna turpis sit amet est. Nunc at feugiat ipsum, vel euismod erat. Sed facilisis finibus eros nec aliquet. Ut fermentum, leo sit amet pellentesque maximus, sapien diam eleifend dui, a molestie mi est in dolor. Aenean ac rhoncus tortor. Vestibulum sed varius lectus, non fermentum magna. Sed vitae quam nibh. In ut orci mauris. Ut consequat, arcu id sagittis pretium, enim orci imperdiet velit, ac pretium eros felis pretium nunc. Fusce quis risus mi.
+
+# Veri Saklama ve Çağırma (Settings)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget lectus imperdiet gravida sit amet euismod magna. Sed rhoncus, dolor quis porttitor placerat, velit orci tincidunt dui, vitae maximus magna turpis sit amet est. Nunc at feugiat ipsum, vel euismod erat. Sed facilisis finibus eros nec aliquet. Ut fermentum, leo sit amet pellentesque maximus, sapien diam eleifend dui, a molestie mi est in dolor. Aenean ac rhoncus tortor. Vestibulum sed varius lectus, non fermentum magna. Sed vitae quam nibh. In ut orci mauris. Ut consequat, arcu id sagittis pretium, enim orci imperdiet velit, ac pretium eros felis pretium nunc. Fusce quis risus mi.
+
+# Eklenti Paneli (Panels)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget lectus imperdiet gravida sit amet euismod magna. Sed rhoncus, dolor quis porttitor placerat, velit orci tincidunt dui, vitae maximus magna turpis sit amet est. Nunc at feugiat ipsum, vel euismod erat. Sed facilisis finibus eros nec aliquet. Ut fermentum, leo sit amet pellentesque maximus, sapien diam eleifend dui, a molestie mi est in dolor. Aenean ac rhoncus tortor. Vestibulum sed varius lectus, non fermentum magna. Sed vitae quam nibh. In ut orci mauris. Ut consequat, arcu id sagittis pretium, enim orci imperdiet velit, ac pretium eros felis pretium nunc. Fusce quis risus mi.
 
 # Sürüm Güncellemeleri
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget lectus imperdiet gravida sit amet euismod magna. Sed rhoncus, dolor quis porttitor placerat, velit orci tincidunt dui, vitae maximus magna turpis sit amet est. Nunc at feugiat ipsum, vel euismod erat. Sed facilisis finibus eros nec aliquet. Ut fermentum, leo sit amet pellentesque maximus, sapien diam eleifend dui, a molestie mi est in dolor. Aenean ac rhoncus tortor. Vestibulum sed varius lectus, non fermentum magna. Sed vitae quam nibh. In ut orci mauris. Ut consequat, arcu id sagittis pretium, enim orci imperdiet velit, ac pretium eros felis pretium nunc. Fusce quis risus mi.
+
 ### 01/11/2022 @1.0.0
 - [x] Plugin yapısı oluşturuldu.
 - [x] 
