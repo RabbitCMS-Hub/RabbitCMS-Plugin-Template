@@ -161,6 +161,7 @@ Class ClassName
 
 End Class 
 %>
+```
 
 # Kullanılabilir Nitelikler (Property)
 ## **Genel** Nitelikler
@@ -217,6 +218,7 @@ Bu niteliklerin tanımlanması için *Class* yapınızın altında *class_initia
 > 
 
 ## Örnek Kullanım
+
 ```asp
 <%
 Private Sub class_initialize()
@@ -254,7 +256,42 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget le
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget lectus imperdiet gravida sit amet euismod magna. Sed rhoncus, dolor quis porttitor placerat, velit orci tincidunt dui, vitae maximus magna turpis sit amet est. Nunc at feugiat ipsum, vel euismod erat. Sed facilisis finibus eros nec aliquet. Ut fermentum, leo sit amet pellentesque maximus, sapien diam eleifend dui, a molestie mi est in dolor. Aenean ac rhoncus tortor. Vestibulum sed varius lectus, non fermentum magna. Sed vitae quam nibh. In ut orci mauris. Ut consequat, arcu id sagittis pretium, enim orci imperdiet velit, ac pretium eros felis pretium nunc. Fusce quis risus mi.
 
 # Veri Saklama ve Çağırma (Settings)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget lectus imperdiet gravida sit amet euismod magna. Sed rhoncus, dolor quis porttitor placerat, velit orci tincidunt dui, vitae maximus magna turpis sit amet est. Nunc at feugiat ipsum, vel euismod erat. Sed facilisis finibus eros nec aliquet. Ut fermentum, leo sit amet pellentesque maximus, sapien diam eleifend dui, a molestie mi est in dolor. Aenean ac rhoncus tortor. Vestibulum sed varius lectus, non fermentum magna. Sed vitae quam nibh. In ut orci mauris. Ut consequat, arcu id sagittis pretium, enim orci imperdiet velit, ac pretium eros felis pretium nunc. Fusce quis risus mi.
+Panel sisteminizde kullanacağınız veritabanı veri saklama ve çağırma yordamı **QuickSettings(QuickType[string], Key[string], Title[string], CustomVals[string], SaveToLocal[Const])** niteliğidir.
+
+## Örnek Kullanım
+```asp
+<%
+	Response.Write QuickSettings("input", ""& PLUGIN_CODE &"_OPTION_1", "Label Etiket", "", TO_DB)
+%>
+```
+
+## QuickSettings Değişkenleri
+QuickSettings yordamını farklı inputlar oluşturmak için kullanabilirsiniz. Bunlar;
+### QuickType [string]
+|QuickType Anahtarı|Açıklama|Ek Bilgiler|
+|:--:|--|--|
+|color|aaaa|ek bilgileri|
+|file-explorer|aaaa|ek bilgileri|
+|input|aaaa|ek bilgileri|
+|passwordgenerator|aaaa|ek bilgileri|
+|tag|aaaa|ek bilgileri|
+|inputPrice|aaaa|ek bilgileri|
+|currencyList|aaaa|ek bilgileri|
+|currencyListMultiple|aaaa|ek bilgileri|
+|select|aaaa|ek bilgileri|
+|multiselect|aaaa|ek bilgileri|
+|number|aaaa|ek bilgileri|
+|textarea|aaaa|ek bilgileri|
+|checkbox|aaaa|ek bilgileri|
+|fileajax|aaaa|ek bilgileri|
+|pagelist|aaaa|ek bilgileri|
+|datetime|aaaa|ek bilgileri|
+
+### Key [string]
+### Title [string]
+### CustomVals [string]
+### SaveToLocal [Const]
+
 
 # Eklenti Paneli (Panels)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget lectus imperdiet gravida sit amet euismod magna. Sed rhoncus, dolor quis porttitor placerat, velit orci tincidunt dui, vitae maximus magna turpis sit amet est. Nunc at feugiat ipsum, vel euismod erat. Sed facilisis finibus eros nec aliquet. Ut fermentum, leo sit amet pellentesque maximus, sapien diam eleifend dui, a molestie mi est in dolor. Aenean ac rhoncus tortor. Vestibulum sed varius lectus, non fermentum magna. Sed vitae quam nibh. In ut orci mauris. Ut consequat, arcu id sagittis pretium, enim orci imperdiet velit, ac pretium eros felis pretium nunc. Fusce quis risus mi.
