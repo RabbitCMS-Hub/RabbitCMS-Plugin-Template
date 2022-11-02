@@ -255,8 +255,37 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget le
 # Kullanılabilir Sabitler (Const)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget lectus imperdiet gravida sit amet euismod magna. Sed rhoncus, dolor quis porttitor placerat, velit orci tincidunt dui, vitae maximus magna turpis sit amet est. Nunc at feugiat ipsum, vel euismod erat. Sed facilisis finibus eros nec aliquet. Ut fermentum, leo sit amet pellentesque maximus, sapien diam eleifend dui, a molestie mi est in dolor. Aenean ac rhoncus tortor. Vestibulum sed varius lectus, non fermentum magna. Sed vitae quam nibh. In ut orci mauris. Ut consequat, arcu id sagittis pretium, enim orci imperdiet velit, ac pretium eros felis pretium nunc. Fusce quis risus mi.
 
+|Sabit|Veri Türü|Açıklama|
+|:--:|--|--|
+|TO_FILE|Boolean|QuickSettings değerinin web.config dosyasına yazılmasını sağlar.|
+|TO_DB|Boolean|QuickSettings değerinin veritabanına yazılmasını sağlar.|
+|PLUGIN_USER_AGENT|String|XMLHTTP isteklerinde kullanılabilecek User-Agent değerini döner.|
+|ALLOWED_IMAGE_TYPE|Array|Upload için izin verilen imaj uzantılarını döner. Ör: ".jpg"|
+|ALLOWED_FILE_TYPE|Array|Upload için izin verilen dosya uzantılarını döner. Ör: ".zip"|
+|DOMAIN_URL|String|CMS'in çalıştığı alan adını tam döner. Ör: "https://rabbit-cms.com/" |
+|:--:|--|--|
+|PAYMENT_PATH|String|Ödeme Safyası için ilgili dilde tam path döner. Ör: "/tr/payments/"|
+|CART_PATH|String|Ödeme Safyası için ilgili dilde tam path döner. Ör: "/tr/cart/"|
+|ACCOUNT_PATH|String|Ödeme Safyası için ilgili dilde tam path döner. Ör: "/tr/accounts/"|
+|PRODUCTS_PATH|String|Ödeme Safyası için ilgili dilde tam path döner. Ör: "/tr/products/"|
+|PRODUCT_DETAILS_PATH|String|Ödeme Safyası için ilgili dilde tam path döner. Ör: "/tr/product-details/"|
+|CONTACTUS_PATH|String|Ödeme Safyası için ilgili dilde tam path döner. Ör: "/tr/iletisim/"|
+|PAGES_PATH|String|Statik Sayfalar için ilgili dilde tam path döner. Ör: "/tr/pages/..."|
+|:--:|--|--|
+|Cms.Unvan()|String|CMS'in sahiplik bilgisi: Ünvan bilgisi döner|
+|Cms.EPosta()|String|CMS'in sahiplik bilgisi: E-Posta bilgisi döner|
+|Cms.Telefon(1)|String|CMS'in sahiplik bilgisi: Telefon 1 bilgisi döner|
+|Cms.Telefon(2)|String|CMS'in sahiplik bilgisi: Telefon2 bilgisi döner|
+|Cms.Adres()|String|CMS'in sahiplik bilgisi: Adres bilgisi döner|
+|:--:|--|--|
+|CRONITOR_STATUS|Int|CronTask sisteminin aktiflik durumunu 1 veya 0 olarak döner.|
+
+
 # Veri Saklama ve Çağırma (Settings)
 Panel sisteminizde kullanacağınız veritabanı veri saklama ve çağırma yordamı **QuickSettings(QuickType[string], Key[string], Title[string], CustomVals[string], SaveToLocal[Const])** niteliğidir.
+
+# Eklenti Simgesi (Icon)
+http://byrushan.com/projects/super-admin/app/2.1/icons.html adresinden eklentiniz için bir simge seçebilirsiniz.
 
 ## Örnek Kullanım
 ```asp
