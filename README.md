@@ -175,9 +175,9 @@ End Class
 Bu niteliklerin tanımlanması için *Class* yapınızın altında *class_initialize()* Subroutine (Alt Program) içinde tanımlanır.
 
 |Nitelik Çağrısı|Nitelik Değişkeni|Veri Türü|Açıklama|
-|:--:|--|--|
-|PluginCode()|**PLUGIN_CODE**|String|Eklentinizin RabbitCMS tarafından çağırılması için kullanılacak isimdir. Benzersiz olması önemlidir. Eklenti kodunuzun kullanılıp kullanılmadığını kontrol etmek için [RabbitCMS Hub](https://github.com/RabbitCMS-Hub/) kabul görmüş eklenti isimlerini kontrol edebilirsiniz.|
-|PluginName()| **PLUGIN_NAME** |String|Eklentinizi tanımlayan ve eklenti listesinde görünecek olan adıdır. 40 karakterden kısa tutulması önemlidir.|
+|:--:|--|--|--|
+|PluginCode()|PLUGIN_CODE|String|Eklentinizin RabbitCMS tarafından çağırılması için kullanılacak isimdir. Benzersiz olması önemlidir. Eklenti kodunuzun kullanılıp kullanılmadığını kontrol etmek için [RabbitCMS Hub](https://github.com/RabbitCMS-Hub/) kabul görmüş eklenti isimlerini kontrol edebilirsiniz.|
+|PluginName()|PLUGIN_NAME|String|Eklentinizi tanımlayan ve eklenti listesinde görünecek olan adıdır. 40 karakterden kısa tutulması önemlidir.|
 |AAAAAAAA|BBBBBB|CCCCC|DDDDDD|
 |AAAAAAAA|BBBBBB|CCCCC|DDDDDD|
 |AAAAAAAA|BBBBBB|CCCCC|DDDDDD|
