@@ -176,49 +176,18 @@ Bu niteliklerin tanımlanması için *Class* yapınızın altında *class_initia
 
 |Nitelik Çağrısı|Nitelik Değişkeni|Veri Türü|Açıklama|
 |:--:|--|--|--|
-|PluginCode()|PLUGIN_CODE|String|Eklentinizin RabbitCMS tarafından çağırılması için kullanılacak isimdir. Benzersiz olması önemlidir. Eklenti kodunuzun kullanılıp kullanılmadığını kontrol etmek için [RabbitCMS Hub](https://github.com/RabbitCMS-Hub/) kabul görmüş eklenti isimlerini kontrol edebilirsiniz.|
-|PluginName()|PLUGIN_NAME|String|Eklentinizi tanımlayan ve eklenti listesinde görünecek olan adıdır. 40 karakterden kısa tutulması önemlidir.|
-|PluginVersion()|**PLUGIN_VERSION**|String|Eklentinizin GitHub versiyonudur. GitHub üstünde geliştirdiğiniz ve Sürüm olarak çıkarttığınız paketlerde kullanılacak etiketi kontrol eder. Sürüm etiketlerinizi v1.0.1 gibi kullanımanız önemlidir. (v harfi küçük ve sonrasında 2 nokta ile ayrılmış 3 hane kullanılması önerilir.)|
-|AAAAAAAA|BBBBBB|CCCCC|DDDDDD|
-|AAAAAAAA|BBBBBB|CCCCC|DDDDDD|
-|AAAAAAAA|BBBBBB|CCCCC|DDDDDD|
-|AAAAAAAA|BBBBBB|CCCCC|DDDDDD|
-
-### PluginGit()
-**PLUGIN_GIT** = "*String*" 
-> Eklentinizin genel GitHub adresidir. RabbitCMS bu adreste bulunan Sürüm'leri kontrol eder ve bir güncelleme geldiyse, ilgili sürüm dosyasını kullanarak eklentiyi günceller.
-
-### PluginDevURL()
-**PLUGIN_DEV_URL** = "*String*" 
-> Eklenti geliştiricisine ait web sayfası olarak tanımlanır. Dilerseniz "mailto:" şeklinde e-posta adresi girebilirsiniz.
-
-### PluginFolder()
-**PLUGIN_CODE** = "*String*" 
-> Eklentinizin ana klasörünü ifade eder. Ana klasör genel olarak GitHub uzantınız olmalıdır. https://github.com/RabbitCMS-Hub/RabbitCMS-Plugin-Template adresinde bulunacak eklentiniz
-
-### PluginIcon()
-**PLUGIN_ICON** = "*String*" 
-> 
-
-### PluginRemovable()
-**PLUGIN_REMOVABLE** = "*Boolean*" 
-> 
-
-### PluginCredits()
-**PLUGIN_CREDITS** = "*String*"
-> 
-
-### PluginFolderName()
-**PLUGIN_FOLDER_NAME** = "*String*"
-> 
-
-### PluginDBTable()
-**PLUGIN_DB_NAME** = "*String*"
-> 
-
-### PluginAutoload()
-**PLUGIN_AUTOLOAD** = "*Boolean*"
-> 
+|**PluginCode()**|**PLUGIN_CODE**|String|Eklentinizin RabbitCMS tarafından çağırılması için kullanılacak isimdir. Benzersiz olması önemlidir. Eklenti kodunuzun kullanılıp kullanılmadığını kontrol etmek için [RabbitCMS Hub](https://github.com/RabbitCMS-Hub/) kabul görmüş eklenti isimlerini kontrol edebilirsiniz.|
+|**PluginName()**|**PLUGIN_NAME**|String|Eklentinizi tanımlayan ve eklenti listesinde görünecek olan adıdır. 40 karakterden kısa tutulması önemlidir.|
+|**PluginVersion()**|**PLUGIN_VERSION**|String|Eklentinizin GitHub versiyonudur. GitHub üstünde geliştirdiğiniz ve Sürüm olarak çıkarttığınız paketlerde kullanılacak etiketi kontrol eder. Sürüm etiketlerinizi v1.0.1 gibi kullanımanız önemlidir. (v harfi küçük ve sonrasında 2 nokta ile ayrılmış 3 hane kullanılması önerilir.)|
+|**PluginGit()**|**PLUGIN_GIT**|String|Eklentinizin genel GitHub adresidir. RabbitCMS bu adreste bulunan Sürüm'leri kontrol eder ve bir güncelleme geldiyse, ilgili sürüm dosyasını kullanarak eklentiyi günceller.|
+|**PluginDevURL()**|**PLUGIN_DEV_URL**|String|Eklenti geliştiricisine ait web sayfası olarak tanımlanır. Dilerseniz "mailto:" şeklinde e-posta adresi girebilirsiniz.|
+|**PluginFolder()**|**PLUGIN_CODE**|String|Eklentinizin ana klasörünü ifade eder. Ana klasör genel olarak GitHub uzantınız olmalıdır. https://github.com/RabbitCMS-Hub/RabbitCMS-Plugin-Template adresinde bulunacak eklentiniz|
+|**PluginIcon()**|**PLUGIN_ICON**|String|lorem ipsum dolor|
+|**PluginRemovable()**|**PLUGIN_REMOVABLE**|Boolean|lorem ipsum dolor|
+|**PluginCredits()**|**PLUGIN_CREDITS**|CCCCC|lorem ipsum dolor|
+|**PluginFolderName()**|**PLUGIN_FOLDER_NAME**|String|lorem ipsum dolor|
+|**PluginDBTable()**|**PLUGIN_DB_NAME**|String|lorem ipsum dolor|
+|**PluginAutoload()**|**PLUGIN_AUTOLOAD**|Boolean|lorem ipsum dolor|
 
 ## Örnek Kullanım
 
