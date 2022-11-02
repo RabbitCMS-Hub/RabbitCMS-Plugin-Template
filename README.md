@@ -17,6 +17,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget le
 	<summary>
 		<a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Örnek Kodu Göster</a> 
 	</summary>
+
 ```asp
 <%
 Class ClassName
@@ -227,6 +228,7 @@ Bu niteliklerin tanımlanması için *Class* yapınızın altında *class_initia
 	<summary>
 		<a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Örnek Kodu Göster</a> 
 	</summary>
+
 ```asp
 <%
 Private Sub class_initialize()
@@ -303,6 +305,7 @@ http://byrushan.com/projects/super-admin/app/2.1/icons.html adresinden eklentini
 	<summary>
 		<a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Örnek Kodu Göster</a> 
 	</summary>
+
 ```asp
 <%
 	Response.Write QuickSettings("input", ""& PLUGIN_CODE &"_OPTION_1", "Label Etiket", "", TO_DB)
