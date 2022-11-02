@@ -178,15 +178,11 @@ Bu niteliklerin tanımlanması için *Class* yapınızın altında *class_initia
 |:--:|--|--|--|
 |PluginCode()|PLUGIN_CODE|String|Eklentinizin RabbitCMS tarafından çağırılması için kullanılacak isimdir. Benzersiz olması önemlidir. Eklenti kodunuzun kullanılıp kullanılmadığını kontrol etmek için [RabbitCMS Hub](https://github.com/RabbitCMS-Hub/) kabul görmüş eklenti isimlerini kontrol edebilirsiniz.|
 |PluginName()|PLUGIN_NAME|String|Eklentinizi tanımlayan ve eklenti listesinde görünecek olan adıdır. 40 karakterden kısa tutulması önemlidir.|
+|PluginVersion()|**PLUGIN_VERSION**|String|Eklentinizin GitHub versiyonudur. GitHub üstünde geliştirdiğiniz ve Sürüm olarak çıkarttığınız paketlerde kullanılacak etiketi kontrol eder. Sürüm etiketlerinizi v1.0.1 gibi kullanımanız önemlidir. (v harfi küçük ve sonrasında 2 nokta ile ayrılmış 3 hane kullanılması önerilir.)|
 |AAAAAAAA|BBBBBB|CCCCC|DDDDDD|
 |AAAAAAAA|BBBBBB|CCCCC|DDDDDD|
 |AAAAAAAA|BBBBBB|CCCCC|DDDDDD|
 |AAAAAAAA|BBBBBB|CCCCC|DDDDDD|
-|AAAAAAAA|BBBBBB|CCCCC|DDDDDD|
-
-### PluginVersion()
-**PLUGIN_VERSION** = "*String*" 
-> Eklentinizin GitHub versiyonudur. GitHub üstünde geliştirdiğiniz ve Sürüm olarak çıkarttığınız paketlerde kullanılacak etiketi kontrol eder. Sürüm etiketlerinizi v1.0.1 gibi kullanımanız önemlidir. (v harfi küçük ve sonrasında 2 nokta ile ayrılmış 3 hane kullanılması önerilir.)
 
 ### PluginGit()
 **PLUGIN_GIT** = "*String*" 
