@@ -13,7 +13,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget le
 # Eklenti Sınıfı **Genel** Yapısı
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget lectus imperdiet gravida sit amet euismod magna. Sed rhoncus, dolor quis porttitor placerat, velit orci tincidunt dui, vitae maximus magna turpis sit amet est. Nunc at feugiat ipsum, vel euismod erat. Sed facilisis finibus eros nec aliquet. Ut fermentum, leo sit amet pellentesque maximus, sapien diam eleifend dui, a molestie mi est in dolor. Aenean ac rhoncus tortor. Vestibulum sed varius lectus, non fermentum magna. Sed vitae quam nibh. In ut orci mauris. Ut consequat, arcu id sagittis pretium, enim orci imperdiet velit, ac pretium eros felis pretium nunc. Fusce quis risus mi.
 
-
+<details>
+	<summary>
+		<a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Örnek Kodu Göster</a> 
+	</summary>
 ```asp
 <%
 Class ClassName
@@ -162,6 +165,7 @@ Class ClassName
 End Class 
 %>
 ```
+</details>
 
 # Kullanılabilir Nitelikler (Property)
 ## **Genel** Nitelikler
@@ -219,6 +223,10 @@ Bu niteliklerin tanımlanması için *Class* yapınızın altında *class_initia
 
 ## Örnek Kullanım
 
+<details>
+	<summary>
+		<a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Örnek Kodu Göster</a> 
+	</summary>
 ```asp
 <%
 Private Sub class_initialize()
@@ -248,6 +256,8 @@ Private Sub class_initialize()
 End Sub
 %>
 ```
+</details>
+
 
 # Kullanılabilir Fonksiyonlar (Function)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in elit eget lectus imperdiet gravida sit amet euismod magna. Sed rhoncus, dolor quis porttitor placerat, velit orci tincidunt dui, vitae maximus magna turpis sit amet est. Nunc at feugiat ipsum, vel euismod erat. Sed facilisis finibus eros nec aliquet. Ut fermentum, leo sit amet pellentesque maximus, sapien diam eleifend dui, a molestie mi est in dolor. Aenean ac rhoncus tortor. Vestibulum sed varius lectus, non fermentum magna. Sed vitae quam nibh. In ut orci mauris. Ut consequat, arcu id sagittis pretium, enim orci imperdiet velit, ac pretium eros felis pretium nunc. Fusce quis risus mi.
@@ -288,11 +298,17 @@ Panel sisteminizde kullanacağınız veritabanı veri saklama ve çağırma yord
 http://byrushan.com/projects/super-admin/app/2.1/icons.html adresinden eklentiniz için bir simge seçebilirsiniz.
 
 ## Örnek Kullanım
+
+<details>
+	<summary>
+		<a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Örnek Kodu Göster</a> 
+	</summary>
 ```asp
 <%
 	Response.Write QuickSettings("input", ""& PLUGIN_CODE &"_OPTION_1", "Label Etiket", "", TO_DB)
 %>
 ```
+</details>
 
 ## QuickSettings Değişkenleri
 QuickSettings yordamını farklı inputlar oluşturmak için kullanabilirsiniz. Bunlar;
